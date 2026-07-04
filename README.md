@@ -4,7 +4,7 @@ Submission for **Stellar Journey to Mastery: Monthly Builder Challenges** (Rise 
 
 > Build wallets, handle balances, and submit your first on-chain transactions on Stellar.
 
-**🌐 Live demo:** [livingdeathz.github.io/stellar-wallet-dapp](https://livingdeathz.github.io/stellar-wallet-dapp/)
+**🌐 Live demo:** [itsgriznft.github.io/stellar-wallet-dapp](https://itsgriznft.github.io/stellar-wallet-dapp/)
 
 A React dApp running against the **Stellar testnet** that lets you:
 

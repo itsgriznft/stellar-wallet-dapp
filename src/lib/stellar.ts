@@ -4,6 +4,7 @@ import {
   Horizon,
   Memo,
   Networks,
+  NotFoundError,
   Operation,
   TransactionBuilder,
 } from '@stellar/stellar-sdk'
@@ -41,7 +42,7 @@ export async function fetchBalances(address: string): Promise<BalanceLine[] | nu
       amount: line.balance,
     }))
   } catch (err) {
-    if (err instanceof Error && err.name === 'NotFoundError') return null
+    if (err instanceof NotFoundError) return null
     throw err
   }
 }

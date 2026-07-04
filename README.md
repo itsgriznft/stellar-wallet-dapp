@@ -4,6 +4,8 @@ Submission for **Stellar Journey to Mastery: Monthly Builder Challenges** (Rise 
 
 > Build wallets, handle balances, and submit your first on-chain transactions on Stellar.
 
+**🌐 Live demo:** [livingdeathz.github.io/stellar-wallet-dapp](https://livingdeathz.github.io/stellar-wallet-dapp/)
+
 A React dApp running against the **Stellar testnet** that lets you:
 
 - 🔗 **Connect a wallet** — via the [Freighter](https://www.freighter.app/) browser extension, with network detection (warns if you're not on Testnet)
@@ -35,6 +37,12 @@ Open the printed URL (default `http://localhost:5173`) and:
 2. If the account is new, click **Fund with Friendbot** to receive 10,000 test XLM.
 3. Fill in a destination `G…` address, an amount, and an optional memo, then **Sign & Send**.
 4. Approve the transaction in Freighter — the confirmed tx hash links straight to the explorer.
+
+## Screenshots
+
+| Wallet connected | Balance displayed | Successful testnet transaction |
+|---|---|---|
+| ![Wallet connected state](screenshots/wallet-connected.png) | ![Balance displayed](screenshots/balance.png) | ![Successful transaction with hash shown to the user](screenshots/transaction-success.png) |
 
 ## Project structure
 
